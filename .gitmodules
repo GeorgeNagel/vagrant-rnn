@@ -1,0 +1,3 @@
+[submodule "theano-rnn"]
+	path = theano-rnn
+	url = git@github.com:gwtaylor/theano-rnn.git
