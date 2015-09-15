@@ -1,0 +1,2 @@
+# Python package requirements
+Theano==0.7.0
