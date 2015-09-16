@@ -1,3 +1,6 @@
 [submodule "theano-rnn"]
 	path = theano-rnn
 	url = git@github.com:gwtaylor/theano-rnn.git
+[submodule "is13"]
+	path = is13
+	url = git@github.com:mesnilgr/is13.git

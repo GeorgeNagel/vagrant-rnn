@@ -16,3 +16,14 @@ $ vagrant ssh
 (vagrant)$ sh reset_virtualenv.sh
 ```
 
+Run an example
+```bash
+(vagrant)$ cd /proj
+(vagrant)$ PYTHONPATH=$PYTHONPATH:is13 venv/bin/python is13/examples/elman-forward.py
+```
+
+Run the nehalemlabs demo (currently fails due to no vagrant display forwarding)
+```bash
+(vagrant)$ cd /proj
+(vagrant)$ venv/bin/python nehalemlabs_rnn.py
+```
