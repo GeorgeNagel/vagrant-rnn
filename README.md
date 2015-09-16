@@ -25,5 +25,11 @@ Run an example
 Run the nehalemlabs demo (currently fails due to no vagrant display forwarding)
 ```bash
 (vagrant)$ cd /proj
-(vagrant)$ venv/bin/python nehalemlabs_rnn.py
+(vagrant)$ venv/bin/python nehalemnlabs/nehalemlabs_rnn.py
+```
+
+Run the simple Karpathy example
+```bash
+(vagrant)$ cd /proj
+(vagrant)$ venv/bin/python karpathy/min-char-rnn.py
 ```

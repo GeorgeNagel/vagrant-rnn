@@ -2,10 +2,14 @@
 Minimal character-level Vanilla RNN model. Written by Andrej Karpathy (@karpathy)
 BSD License
 """
+import os
+
 import numpy as np
 
 # data I/O
-data = open('input.txt', 'r').read() # should be simple plain text file
+current_dir = os.path.dirname(os.path.realpath(__file__))
+input_path = os.path.join(current_dir, 'input.txt')
+data = open(input_path, 'r').read() # should be simple plain text file
 chars = list(set(data))
 data_size, vocab_size = len(data), len(chars)
 print 'data has %d characters, %d unique.' % (data_size, vocab_size)
