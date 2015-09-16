@@ -8,6 +8,6 @@ sudo apt-get install g++
 sudo apt-get install python-dev
 
 # Install virtualenv requirements
-sudo apt-get python-distribute
+sudo apt-get install python-distribute
 sudo easy_install pip
 sudo pip install virtualenv
